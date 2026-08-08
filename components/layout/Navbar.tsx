@@ -10,7 +10,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-white shadow-sm sticky top-0 z-50">
       <Container>
         <div className="flex items-center justify-between h-16">
           <div className="shrink-0">
